@@ -1,12 +1,12 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Noto+Sans:wght@400;700&family=Open+Sans&family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,700&family=Roboto:wght@100;300;400;500;700&display=swap');
 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Noto Sans';
+    font-family: 'Roboto';
 
 }
 
@@ -16,74 +16,81 @@
     
     width: 100vw;
     height: 100vh;
-    background: #201b2c;
+    background: #f5f5f5;
     display: flex;
     /*eixo x*/
     justify-content: center;
     /*eixo y*/
     align-items: center;
+    ;
 
 }
 
 .left{
     
-    width: 50vw;
-    height: 100vh;
+    width: 300px;
+    height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
 
-.left > h1{ 
-    color: #77ffc0;
-
-}
 
 .right{
-    width: 50vw;
-    height: 100vh;
+    width: 700px;
+    height: 583px;
+    background: #fff;
     display: flex;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
+    
 
 }
 
 .card{
-    width: 60%;
+    width: 393px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background: #2f2841;
-    border-radius: 20px;
-    box-shadow: 0px 10px 40px #00000056; 
-
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 10px 40px #79707056; 
+    height: 405px;
+    
+    
+    
 }
 .card > h1 { 
-    color: #77ffc0;
-    font-weight: 800;
+    color: #00A551;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 14px;
 
 }
+
 .textfield{ 
     width: 100%;
+    font-size: 12px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
     margin: 10px 0px;
+
 }
 
 .textfield > input{
-    width: 100%;
+    width: 309px;
     border: none;
+    height: 30px;
     border-radius: 10px;
     padding: 15px;
-    background: #514869;
-    color: #f0ffffde;
+    background: #F4F4F4;
+    color: #0a0c0cde;
     font-size: 12pt;
-    box-shadow: 0px 10px 40px #00000056;
     outline: none;
     border: 2px solid transparent;
 }
@@ -97,25 +104,34 @@ input:focus{
 }
 
 .textfield > label{
-    color: #f0ffffde;
+    color: #7F7E83;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .btn-login{
-    width: 100%;
-    padding: 16px 0px;
+    width: 150px;
+    height: 30px;
     margin: 25px;
     border: none;
-    border-radius: 8px;
+    border-radius: 13px;
     outline: none;
-    font-weight: 800;
-    letter-spacing: 2px;
-    color: #201b2c;
-    background: #0f8;
+    font-weight: 58px;
+    font-size: 12px;
+    color: #ffffff;
+    background: #00A551;
     cursor: pointer;
     box-shadow: 0px 10px 40px -12px #00008052;
+    justify-content: 490px;
+    align-items: 354px;
 
+
+}
+
+.card > h5{
+    color: #474749;
+    font-weight: 400;
+    font-size: 12px;
 }
 
 .btn-login:hover{
